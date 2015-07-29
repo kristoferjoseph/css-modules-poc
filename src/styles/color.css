@@ -1,0 +1,9 @@
+:root {
+  /* Color Scale */
+  --cs-color: #DDD;
+  --cs-variance: 10;
+  --cs-accent: #4A90E2;
+  --cs-positive: #37CE79;
+  --cs-neutral: #AAAAAA;
+  --cs-negative: #D11B1B;
+}

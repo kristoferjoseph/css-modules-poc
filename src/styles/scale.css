@@ -1,0 +1,5 @@
+:root {
+  /* Modular Scale */
+  --ms-bases: 1, 0.75;
+  --ms-ratios: 2;
+}

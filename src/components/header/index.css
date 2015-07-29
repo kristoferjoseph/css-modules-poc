@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 ms(2)rem;
+  color: cs(2);
+  background-color: cs(0, accent);
+  height: ms(4)rem;
+  z-index: 1;
+}
+
+.header-title {
+  flex-grow: 1;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: ms(1)rem;
+}
+
+.header-btn {
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.header-logo {
+  background-color: #37CE79;
+  flex-basis: auto;
+  justify-content: center;
+  margin: 0;
+  order: 1;
+  text-align: center;
+  width: 250px;
+}
+
+.header-link {
+  color: cs(3);
+  text-decoration: none;
+  user-select: none;
+}
+
+.header-nav {
+  align-items: center;
+  background-color: #fff;
+  flex-grow: 1;
+  justify-content: center;
+  order: 2;
+}
+
+.header-messaging {
+  flex-grow: 1;
+  font-weight: normal;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+@import 'font/proxima-nova-light.css';
+@import 'font/proxima-nova-regular.css';
+@import 'font/proxima-nova-semibold.css';
+
+html {
+  font-size: ms(0)rem;
+  line-height: ms(1);
+}
+
+body {
+  font-family: Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+}
