@@ -10,7 +10,9 @@ class Header extends Component {
   render() {
     return (
       <header className={styles.header}>
-        {this.props.title}
+        <span className={styles.title}>
+          {this.props.title}
+        </span>
       </header>
      )
   }
