@@ -1,4 +1,4 @@
-import './index.css'
+import styles from './index.css'
 import React, { Component } from 'react'
 
 class Header extends Component {
@@ -9,7 +9,7 @@ class Header extends Component {
 
   render() {
     return (
-      <header className='header'>
+      <header className={styles.header}>
         {this.props.title}
       </header>
      )

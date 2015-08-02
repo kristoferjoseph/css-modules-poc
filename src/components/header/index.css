@@ -8,8 +8,8 @@
   height: ms(4)rem;
   z-index: 1;
 }
-
-.header-title {
+/* See how we can use a generic class name like title now! */
+.title {
   flex-grow: 1;
   text-align: center;
   text-transform: uppercase;
